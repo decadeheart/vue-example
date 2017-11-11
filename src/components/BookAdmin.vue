@@ -77,7 +77,7 @@
         },
         methods:{
           save() {
-            this.$http.post('http://localhost:8080/createBook',{
+            this.$http.post('http://119.29.208.124:8080/createBook',{
               name : this.book.name,
               teacher : this.book.teacher,
               shopUrl : this.book.shopUrl,

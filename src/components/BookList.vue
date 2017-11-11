@@ -56,7 +56,7 @@ import Sidebar from "./Sidebar.vue"
         },
         created(){
           document.title="书籍列表"
-          this.$http.get('http://localhost:8080/book-list')
+          this.$http.get('http://119.29.208.124:8080/book-list')
             .then(function(ret) {
               this.books = ret.data;
               console.log(ret.data)
